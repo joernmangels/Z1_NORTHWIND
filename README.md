@@ -24,3 +24,21 @@ Since the northwind OData service is served over HTTP, Chrome will not allow sit
 
 * https://sapui5.hana.ondemand.com/
 * https://openui5.hana.ondemand.com/
+
+# JM Info: 04.02.2021
+
+# UI5 Tooling
+* https://sap.github.io/ui5-tooling/
+
+# In your project
+* npm init
+* npm install --save-dev @ui5/cli
+* npm install ui5-middleware-simpleproxy --save-dev
+* ui5 init
+* Check ui5.yaml, package.json -> ui5-middleware-simpleproxy
+* Proxy in manifest.json in "dataSources" eintragen
+* ui2 serve -h2
+
+
+
+
